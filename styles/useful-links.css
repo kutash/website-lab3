@@ -1,0 +1,23 @@
+.useful-links {
+    width: 40%;
+}
+
+.socials {
+    width: 30%;
+}
+
+.social-element {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 5px;
+}
+
+.social-element a, .useful-links a {
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+.social-element a:hover, .useful-links a:hover {
+    color: #3C4142;
+}
