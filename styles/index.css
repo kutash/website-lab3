@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+body {
+    width: 60%;
+    min-height: 100%;
+    margin: 5px auto;
+    background-color: aliceblue;
+    font-family: Garamond, serif;
+    color: #3C4142;
+    display: flex;
+    flex-direction: column;
+}
+
+body main {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.heading {
+    font-size: xxx-large;
+    margin: 0 0 5px;
+}
+
+.sub-heading {
+    font-size: large;
+    color: inherit;
+    margin: 0;
+}
+
+hr {
+    margin: 15px 5px;
+}
+
+.accented {
+    font-size: larger;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+/* header styles */
+.header-container {
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.header-content img {
+    height: 100px;
+}
+
+.header-container .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 33px;
+}
+
+.header-content .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+/* main styles */
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container .navigation {
+    width: 30%;
+}
+
+.main-container .content {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.main-container .content .photo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.navigation .element {
+    width: 80%;
+    padding: 5px 12px 5px 5px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style-image: url("../assets/heart-16x16.svg");
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.element {
+    border-bottom: 1px solid #ddd;
+}
+
+.element:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.footer-container {
+    text-align: center;
+}

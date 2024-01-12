@@ -1,0 +1,96 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-section {
+    margin-top: 25px;
+}
+
+.resume-container .controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 15px;
+}
+
+.controls .control {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.control:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.control img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.control a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.resume-general-info {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.resume-general-info img {
+    width: 200px;
+    height: 200px;
+}
+
+.resume-general-info a {
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+.resume-general-info a:hover {
+    color: #3C4142;
+}
+
+.resume-container p,h1,h2,h3,h4,h5,h5 {
+    margin: 0;
+}
+
+.resume-segment-heading {
+    font-size: xx-large;
+    color: darkgrey;
+    border-bottom: 2px solid darkgrey;
+    margin-top: 25px;
+}
+
+.text-secondary {
+    color: darkgrey;
+    font-size: large;
+}
+
+pre {
+    font-family: inherit;
+}
+
+.resume-container th,td {
+    padding: 10px
+}
+
+.skill {
+    background-color: lightblue;
+}
